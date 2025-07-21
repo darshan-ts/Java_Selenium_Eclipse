@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import com.Generic.Utility;
+
 public class S45_JavascriptExecutor_Scroll {
   @Test
   public void testScroll() throws InterruptedException
@@ -18,6 +20,30 @@ public class S45_JavascriptExecutor_Scroll {
 	  WebDriver driver=new ChromeDriver();
 	  driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	  driver.get("https://www.freshworks.com/");
+	  
+	  
+	  //scrolldown
+	  Utility.scrollDown(driver);
+	  
+	  Thread.sleep(2000);
+	  
+	  Utility.scrollUp(driver);
+	  
+	  Thread.sleep(2000);
+	  //webelement
+	  WebElement ele=driver.findElement(By.xpath("(//h2)[4]"));
+	  
+	  Utility.scrollUptoElement(driver,ele);
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  /*
 	  
 	 JavascriptExecutor js=(JavascriptExecutor) driver;
 	  
@@ -37,7 +63,7 @@ public class S45_JavascriptExecutor_Scroll {
 	  
 	  js.executeScript("arguments[0].scrollIntoView(true);",ele);
 	  
-	  
+	  */
 	  
 	  
   }

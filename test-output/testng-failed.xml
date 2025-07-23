@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.WindowHandling.S31_MultiplewindowHandlingInterviewQuestion">
+      <class name="com.WebTesting.Capabilities.S52_GetAppCapabilitiesforBrowser">
         <methods>
-          <include name="testMultipleWindow"/>
+          <include name="testCapabilities"/>
         </methods>
-      </class> <!-- com.WebTesting.WindowHandling.S31_MultiplewindowHandlingInterviewQuestion -->
+      </class> <!-- com.WebTesting.Capabilities.S52_GetAppCapabilitiesforBrowser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

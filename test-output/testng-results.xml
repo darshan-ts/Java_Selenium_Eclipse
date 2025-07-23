@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-07-22T12:47:31 IST" name="Default suite" finished-at="2025-07-22T12:47:40 IST" duration-ms="9239">
+  <suite started-at="2025-07-23T09:38:05 IST" name="Default suite" finished-at="2025-07-23T09:38:11 IST" duration-ms="5503">
     <groups>
     </groups>
-    <test started-at="2025-07-22T12:47:31 IST" name="Default test" finished-at="2025-07-22T12:47:40 IST" duration-ms="9239">
-      <class name="com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait">
-        <test-method signature="testWait()[pri:0, instance:com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait@3646a422]" started-at="2025-07-22T12:47:31 IST" name="testWait" finished-at="2025-07-22T12:47:40 IST" duration-ms="9215" status="PASS">
+    <test started-at="2025-07-23T09:38:05 IST" name="Default test" finished-at="2025-07-23T09:38:11 IST" duration-ms="5503">
+      <class name="com.WebTesting.DropDownAutomation.Assignment_7">
+        <test-method signature="dropdown()[pri:0, instance:com.WebTesting.DropDownAutomation.Assignment_7@2ddc9a9f]" started-at="2025-07-23T09:38:05 IST" name="dropdown" finished-at="2025-07-23T09:38:11 IST" duration-ms="5481" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testWait -->
-      </class> <!-- com.WebTesting.WaitsInSelenium.S50_DynamicWaitUsingWebDriverWait -->
+        </test-method> <!-- dropdown -->
+      </class> <!-- com.WebTesting.DropDownAutomation.Assignment_7 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

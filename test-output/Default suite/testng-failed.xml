@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.Capabilities.S52_GetAppCapabilitiesforBrowser">
+      <class name="com.WebTesting.Capabilities.S57_FileUploadUsingSendKeys">
         <methods>
-          <include name="testCapabilities"/>
+          <include name="testFileUpload"/>
         </methods>
-      </class> <!-- com.WebTesting.Capabilities.S52_GetAppCapabilitiesforBrowser -->
+      </class> <!-- com.WebTesting.Capabilities.S57_FileUploadUsingSendKeys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

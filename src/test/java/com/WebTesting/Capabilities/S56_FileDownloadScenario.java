@@ -24,7 +24,8 @@ public class S56_FileDownloadScenario {
 	  WebDriver driver=new ChromeDriver(options);
 	  driver.get("https://the-internet.herokuapp.com/download");
 	  
-	  By file=By.linkText("testing_edge.pdf");
+//	  By file=By.linkText("testing_edge.pdf");
+	  By file=By.linkText("Appiumsetup.txt");
 	  driver.findElement(file).click();
 	  
 	  

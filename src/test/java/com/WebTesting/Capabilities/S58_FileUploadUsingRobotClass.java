@@ -77,7 +77,7 @@ public class S58_FileUploadUsingRobotClass {
 	   //upload
 	   driver.findElement(By.id("file-submit")).click();
 	   
-	   Thread.sleep(2000);
+	   Thread.sleep(4000);
 	   /*
 	   //validate mesg
 	   String exp="File Uploaded!";

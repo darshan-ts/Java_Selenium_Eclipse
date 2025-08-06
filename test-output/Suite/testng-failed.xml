@@ -3,28 +3,16 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation">
+      <class name="com.WebTesting.TestNG.Annotations.RealTimeUseOfAnnotation">
         <methods>
           <include name="testLogin"/>
+          <include name="getAppTitle"/>
+          <include name="setUp"/>
+          <include name="testSignInLink"/>
+          <include name="tearDown"/>
+          <include name="getAppUrl"/>
         </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation -->
-      <class name="com.WebTesting.TestNG.Basics.TestDemo5_Assertion">
-        <methods>
-          <include name="testSoftAssertion"/>
-        </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo5_Assertion -->
-      <class name="com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMethod">
-        <methods>
-          <include name="registerTest"/>
-          <include name="logoutTest"/>
-          <include name="loginTest"/>
-        </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMethod -->
-      <class name="com.WebTesting.TestNG.Basics.TestDemo7_timeouts">
-        <methods>
-          <include name="testCase2"/>
-        </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo7_timeouts -->
+      </class> <!-- com.WebTesting.TestNG.Annotations.RealTimeUseOfAnnotation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,5 +1,7 @@
 package com.WebTesting.TestNG.Annotations;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -13,9 +15,11 @@ public class BaseClass
 	@BeforeClass
 	public void setUp()
 	{
-//		open browser with app
+		//open browser with app
 		 driver=new ChromeDriver();
-		 driver.get("https://automationplayground.com/crm/");
+		 //driver.get("https://automationplayground.com/crm/");
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		 driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 	}
 	
 	@BeforeMethod
@@ -33,7 +37,7 @@ public class BaseClass
 	@AfterClass
 	  public void tearDown()
 	  {
-//		//close browser
+		//close browser
 		  driver.quit();
 	  }
 

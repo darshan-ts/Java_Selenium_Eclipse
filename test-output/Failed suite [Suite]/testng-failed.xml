@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
     <classes>
-      <class name="com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation">
-        <methods>
-          <include name="testLogin"/>
-        </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation -->
       <class name="com.WebTesting.TestNG.Basics.TestDemo5_Assertion">
         <methods>
           <include name="testSoftAssertion"/>
         </methods>
       </class> <!-- com.WebTesting.TestNG.Basics.TestDemo5_Assertion -->
+      <class name="com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation">
+        <methods>
+          <include name="testLogin"/>
+        </methods>
+      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo6_HRMLoginValidation -->
+      <class name="com.WebTesting.TestNG.Basics.TestDemo7_timeouts">
+        <methods>
+          <include name="testCase2"/>
+        </methods>
+      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo7_timeouts -->
       <class name="com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMethod">
         <methods>
           <include name="registerTest"/>
@@ -20,11 +25,6 @@
           <include name="loginTest"/>
         </methods>
       </class> <!-- com.WebTesting.TestNG.Basics.TestDemo8_dependsOnMethod -->
-      <class name="com.WebTesting.TestNG.Basics.TestDemo7_timeouts">
-        <methods>
-          <include name="testCase2"/>
-        </methods>
-      </class> <!-- com.WebTesting.TestNG.Basics.TestDemo7_timeouts -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

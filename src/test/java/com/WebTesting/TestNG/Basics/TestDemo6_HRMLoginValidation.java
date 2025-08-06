@@ -1,5 +1,7 @@
 package com.WebTesting.TestNG.Basics;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -32,6 +34,7 @@ public class TestDemo6_HRMLoginValidation {
 	  String actUrl=driver.getCurrentUrl();
 	  String expUrl="dashboard";
 	  
+//	  AssertJUnit.assertTrue(actUrl.contains(expUrl),"Login Fail"); // Soon after creating Suite, Eclipse by default changes assertion with respect to JUnit. We need to revert only to TestNG Assertion.
 	  Assert.assertTrue(actUrl.contains(expUrl),"Login Fail");
 	  System.out.println("Login Completed!");
 	  

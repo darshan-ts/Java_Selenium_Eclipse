@@ -1,5 +1,7 @@
 package com.WebTesting.TestNG.Basics;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -19,6 +21,7 @@ public class TestDemo5_Assertion
 	  
 	  //Scenario: Actual string should not contains TestNg
 	  
+//	  AssertJUnit.assertFalse(act.contains(exp),"Test Fail: String match with partial data"); // Soon after creating Suite, Eclipse by default changes assertion with respect to JUnit. We need to revert only to TestNG Assertion.
 	  Assert.assertFalse(act.contains(exp),"Test Fail: String match with partial data");
 	  System.out.println("Test Pass: String not match with partial data");
 	  System.out.println("---------------");
@@ -34,7 +37,7 @@ public class TestDemo5_Assertion
 	  	 
 	  SoftAssert sf=new SoftAssert();
 	  //sf.assertEquals(a,b,"Test Fail: Numbers are not equal");
-	  sf.assertTrue(a==b);
+	  AssertJUnit.assertTrue(a==b);
 	  System.out.println("Test Pass: Numbers are equal");
 	  System.out.println("---------------");
 	  System.out.println("---------------");

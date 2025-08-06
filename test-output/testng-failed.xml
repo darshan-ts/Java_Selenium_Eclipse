@@ -3,16 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.TestNG.Annotations.RealTimeUseOfAnnotation">
+      <class name="com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest">
         <methods>
-          <include name="testLogin"/>
-          <include name="getAppTitle"/>
-          <include name="setUp"/>
-          <include name="testSignInLink"/>
-          <include name="tearDown"/>
-          <include name="getAppUrl"/>
+          <include name="pageSetUp"/>
+          <include name="validateLogin"/>
         </methods>
-      </class> <!-- com.WebTesting.TestNG.Annotations.RealTimeUseOfAnnotation -->
+      </class> <!-- com.WebTesting.TestNG.ByLocatorPOM.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

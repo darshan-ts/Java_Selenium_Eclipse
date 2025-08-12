@@ -6,7 +6,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 
-import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+//import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
 
 public class PropertiesUtil
 {

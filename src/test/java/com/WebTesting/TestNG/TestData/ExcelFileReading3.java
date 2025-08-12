@@ -8,7 +8,7 @@ import java.io.IOException;
 import org.apache.poi.xssf.usermodel.*;
 import org.testng.annotations.Test;
 
-public class ExcelFileReading {
+public class ExcelFileReading3 {
   @Test
   public void readFile() throws IOException
   {

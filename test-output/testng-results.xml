@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-12T11:13:44 IST" name="Default suite" finished-at="2025-08-12T11:13:44 IST" duration-ms="428">
+  <suite started-at="2025-08-12T11:23:47 IST" name="Default suite" finished-at="2025-08-12T11:23:47 IST" duration-ms="427">
     <groups>
     </groups>
-    <test started-at="2025-08-12T11:13:44 IST" name="Default test" finished-at="2025-08-12T11:13:44 IST" duration-ms="428">
-      <class name="com.WebTesting.TestNG.TestData.ExcelFileReading">
-        <test-method signature="readFile()[pri:0, instance:com.WebTesting.TestNG.TestData.ExcelFileReading@1530c739]" started-at="2025-08-12T11:13:44 IST" name="readFile" finished-at="2025-08-12T11:13:44 IST" duration-ms="401" status="PASS">
+    <test started-at="2025-08-12T11:23:47 IST" name="Default test" finished-at="2025-08-12T11:23:47 IST" duration-ms="427">
+      <class name="com.WebTesting.TestNG.TestData.ExcelFileReading3">
+        <test-method signature="readFile()[pri:0, instance:com.WebTesting.TestNG.TestData.ExcelFileReading3@76a4ebf2]" started-at="2025-08-12T11:23:47 IST" name="readFile" finished-at="2025-08-12T11:23:47 IST" duration-ms="401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- readFile -->
-      </class> <!-- com.WebTesting.TestNG.TestData.ExcelFileReading -->
+      </class> <!-- com.WebTesting.TestNG.TestData.ExcelFileReading3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

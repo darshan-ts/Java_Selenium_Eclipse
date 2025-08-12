@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.TestNG.ParallelTesting_6.CrossBrowserTest">
+      <class name="com.WebTesting.TestNG.TestData.ExcelFileReading">
         <methods>
-          <include name="crossBrowserTestCase"/>
+          <include name="readFile"/>
         </methods>
-      </class> <!-- com.WebTesting.TestNG.ParallelTesting_6.CrossBrowserTest -->
+      </class> <!-- com.WebTesting.TestNG.TestData.ExcelFileReading -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

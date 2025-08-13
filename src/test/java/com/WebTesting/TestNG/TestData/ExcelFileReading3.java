@@ -30,7 +30,7 @@ public class ExcelFileReading3 {
 	  System.out.println("Total cells are: "+cells);//2
 	  
 	  //create storage with Array
-	  Object[][] arr=new Object[rows-1][cells];//skip the heading and read only 4 rows
+	  Object[][] arr=new Object[rows-1][cells];//4 2//skip the heading and read only 4 rows
 	  
 	  //read the file data and store it into array
 	  for(int i=1;i<rows;i++)//row5

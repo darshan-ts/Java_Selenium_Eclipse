@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.WebTesting.TestNG.TestData.ExcelFileReading">
+      <class name="com.WebTesting.TestNG.TestData.TestDataUsingXMLFile">
         <methods>
-          <include name="readFile"/>
+          <include name="testDataFromFile"/>
         </methods>
-      </class> <!-- com.WebTesting.TestNG.TestData.ExcelFileReading -->
+      </class> <!-- com.WebTesting.TestNG.TestData.TestDataUsingXMLFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import com.Generic.PropertiesUtil;
+import com.Generic.Utility;
 
 public class TestDataReadingUsingPropertiesFile2 {
   @Test(enabled=false)
@@ -56,7 +57,7 @@ public class TestDataReadingUsingPropertiesFile2 {
 		 
 	  WebDriver driver=new ChromeDriver();
 	  driver.get(p1.getData("url"));
-	  
+	  //driver.get(Utility.readPropertiesFile("config","url"));from utility with static method
 	  //username
 	  
 	  driver.findElement(By.id(p1.getData("unlocid"))).sendKeys(p1.getData("un"));

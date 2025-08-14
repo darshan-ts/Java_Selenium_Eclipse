@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-13T10:50:04 IST" name="Default suite" finished-at="2025-08-13T10:50:11 IST" duration-ms="6568">
+  <suite started-at="2025-08-14T11:02:28 IST" name="Default suite" finished-at="2025-08-14T11:02:33 IST" duration-ms="4606">
     <groups>
     </groups>
-    <test started-at="2025-08-13T10:50:04 IST" name="Default test" finished-at="2025-08-13T10:50:11 IST" duration-ms="6568">
-      <class name="com.WebTesting.TestNG.TestData.HRMLoginWithExcelFile5">
-        <test-method signature="testLogin()[pri:0, instance:com.WebTesting.TestNG.TestData.HRMLoginWithExcelFile5@5b1669c0]" started-at="2025-08-13T10:50:04 IST" name="testLogin" finished-at="2025-08-13T10:50:11 IST" duration-ms="6541" status="PASS">
+    <test started-at="2025-08-14T11:02:28 IST" name="Default test" finished-at="2025-08-14T11:02:33 IST" duration-ms="4606">
+      <class name="com.WebTesting.TestNG.DataDrivenTesting_7.GetTheScreenshotDemo1">
+        <test-method signature="capture()[pri:0, instance:com.WebTesting.TestNG.DataDrivenTesting_7.GetTheScreenshotDemo1@78e4deb0]" started-at="2025-08-14T11:02:28 IST" name="capture" finished-at="2025-08-14T11:02:33 IST" duration-ms="4575" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-      </class> <!-- com.WebTesting.TestNG.TestData.HRMLoginWithExcelFile5 -->
+        </test-method> <!-- capture -->
+      </class> <!-- com.WebTesting.TestNG.DataDrivenTesting_7.GetTheScreenshotDemo1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

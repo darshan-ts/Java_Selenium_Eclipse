@@ -8,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.Generic.Utility;
+
 public class HRMTestForLogin3
 {
   //@Test(dataProvider = "mydata",dataProviderClass = CustomData2.class) using array
@@ -20,6 +22,7 @@ public class HRMTestForLogin3
 	  	  
 	  driver.findElement(By.name("username")).sendKeys(un);
 	  driver.findElement(By.name("password")).sendKeys(psw);
+	  Utility.getScreenshot(driver,"DDTForHRM");
 	  driver.findElement(By.tagName("button")).click();
 	  
 	  Thread.sleep(2000);
